@@ -2,6 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.chrome.options import Options
 from bs4 import BeautifulSoup
 import re
 
@@ -12,8 +13,12 @@ stores = [
     ("直營門市C", "https://www.google.com.tw/maps/place/%E5%98%9F%E5%98%9F%E6%88%BF%E4%B8%96%E8%B2%BF%E7%AB%99/@25.0329751,121.5613276,17z/data=!4m6!3m5!1s0x3442abb63b59847d:0xf0a1c92305673cdb!8m2!3d25.0341587!4d121.560726!16s%2Fg%2F12q4w2s_7"),
 ]
 
+# 開啟 headless 模式，不顯示瀏覽器視窗
+chrome_options = Options()
+chrome_options.add_argument("--headless")  
+
 # 開啟瀏覽器
-driver = webdriver.Chrome()
+driver = webdriver.Chrome(options=chrome_options)
 
 # 設定等待網頁加載完成的時間
 wait = WebDriverWait(driver, 10)
