@@ -8,11 +8,27 @@ import re
 
 # 定義要爬取的直營門市列表，格式為 (商家名稱, 商家Google Maps網址)
 stores = [
-    ("直營門市A", "https://goo.gl/maps/FJi9fVoXjEvhCZNe8"),
-    ("直營門市B", "https://goo.gl/maps/mJDhMUN5j4QbHXkX8"),
-    ("直營門市C", "https://goo.gl/maps/8CnEkW9xNhnMuDnYA"),
-    ("直營門市D", "https://goo.gl/maps/P3NXJoccKgGTmP9E6"),
-    ("直營門市E", "https://goo.gl/maps/GCHWyq5cw2HwwgjD6"),
+    ("直營門市", "https://goo.gl/maps/FJi9fVoXjEvhCZNe8"),
+    ("直營門市", "https://goo.gl/maps/mJDhMUN5j4QbHXkX8"),
+    ("直營門市", "https://goo.gl/maps/8CnEkW9xNhnMuDnYA"),
+    ("直營門市", "https://goo.gl/maps/P3NXJoccKgGTmP9E6"),
+    ("直營門市", "https://goo.gl/maps/GCHWyq5cw2HwwgjD6"),
+    ("直營門市", "https://goo.gl/maps/9tMTJxxtg74w5QtU9"),
+    ("直營門市", "https://goo.gl/maps/iEUepWczNKYRtHCN9"),
+    ("直營門市", "https://goo.gl/maps/s35Vk5VHYfJTaBkJ7"),
+    ("直營門市", "https://goo.gl/maps/i4RonGbMvHeeX5k97"),
+    ("直營門市", "https://goo.gl/maps/JAe6AbqMd54JAZ1fA"),
+    ("直營門市", "https://goo.gl/maps/u6GX1YYDAy7D678FA"),
+    ("直營門市", "https://goo.gl/maps/fHnxkD21Wz4WGKQM7"),
+    ("直營門市", "https://goo.gl/maps/LcdRoq93gtkXKqMP9"),
+    ("直營門市", "https://goo.gl/maps/myDUWtWAP1cvjk4H7"),
+    ("直營門市", "https://goo.gl/maps/EvpEUZPKUZbxrFNR8"),
+    ("直營門市", "https://goo.gl/maps/k4mACUbSEQW6LnHw5"),
+    ("直營門市", "https://goo.gl/maps/9ynib89nZMRwkFKC8"),
+    ("直營門市", "https://goo.gl/maps/4gxshP5yWTYuKiu67"),
+    ("直營門市", "https://goo.gl/maps/P39EVoXa1K6woiPWA"),
+    ("直營門市", "https://goo.gl/maps/KXx5uptBa2ZGp9mo9"),
+    
 
 ]
 
