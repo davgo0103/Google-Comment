@@ -28,13 +28,13 @@ stores = [
     ("直營門市", "https://goo.gl/maps/4gxshP5yWTYuKiu67"),
     ("直營門市", "https://goo.gl/maps/P39EVoXa1K6woiPWA"),
     ("直營門市", "https://goo.gl/maps/KXx5uptBa2ZGp9mo9"),
-    
+    ("直營門市", "https://goo.gl/maps/4F6QZd6kSb27eScb7"),
 
 ]
 
 # 開啟 headless 模式，不顯示瀏覽器視窗
 chrome_options = Options()
-chrome_options.add_argument("--headless")
+#chrome_options.add_argument("--headless")
 chrome_options.add_argument('--log-level=3')
 
 # 開啟瀏覽器
