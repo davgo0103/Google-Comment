@@ -34,7 +34,8 @@ stores = [
 
 # 開啟 headless 模式，不顯示瀏覽器視窗
 chrome_options = Options()
-chrome_options.add_argument("--headless")  
+chrome_options.add_argument("--headless")
+chrome_options.add_argument('--log-level=3')
 
 # 開啟瀏覽器
 driver = webdriver.Chrome(options=chrome_options)
